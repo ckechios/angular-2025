@@ -1,1 +1,9 @@
-<p>items works!</p>
+<!-- <p>items works!</p> -->
+ <hr/>
+
+<div>{{ items_title }}</div>
+
+<div *ngFor="let item of items;" class="item">
+    <div>{{item.id}}</div>
+    <div>{{item.desc}}</div>
+</div>

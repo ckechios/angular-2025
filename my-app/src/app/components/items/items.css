@@ -1,0 +1,14 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+ 
+.id {
+    min-width: 40px;
+}
+ 
+.desc {
+    flex-grow: 1;
+}
